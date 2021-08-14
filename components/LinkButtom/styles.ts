@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import Link from "next/link";
-import { darken, lighten } from "polished";
+import { darken } from "polished";
 
 export type StyledLinkButtomProps = {
   bgColor?: boolean;

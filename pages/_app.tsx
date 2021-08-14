@@ -4,7 +4,6 @@ import { ThemeProvider } from "styled-components"
 import { GlobalStyle } from "../global/globalStyles"
 import { theme } from "../theme/theme"
 import Header from "../components/Header"
-import { Head } from "next/document"
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (

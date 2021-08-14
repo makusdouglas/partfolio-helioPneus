@@ -13,7 +13,7 @@ type ReturnedProps = {
     description: string
 }
 
-export const getStaticProps: GetStaticProps<ReturnedProps, ProductParams> = async ({ params, preview = false, previewData }) => {
+export const getStaticProps: GetStaticProps<ReturnedProps, ProductParams> = async ({ params }) => {
     // const data = await getPostAndMorePosts(params.slug, preview, previewData)
     const data: ReturnedProps = {
         description: 'Produto Teste',
