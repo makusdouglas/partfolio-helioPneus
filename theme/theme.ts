@@ -2,7 +2,7 @@ import { DefaultTheme } from "styled-components";
 
 export const theme: DefaultTheme = {
   color: {
-    text: "#E7DFDD",
+    text: "#ccc",
     primary: "#e85d04" /* Shadow */,
     info: "#232525" /* Shark */,
     bgPrimary: "#060608",

@@ -1,10 +1,13 @@
 import React from 'react';
-
 import { Container, InnerContainer, ContainerBaseProps } from './styles';
-
-const ContainerDefault: React.FC<ContainerBaseProps> = ({ children, ...rest }) => {
+interface ContainerPops extends ContainerBaseProps {
+}
+const ContainerDefault: React.FC<ContainerPops> = ({ 
+    children, 
+    ...rest 
+}) => {
     return (
-        <Container {...rest}>
+        <Container {...rest} >
             <InnerContainer {...rest}>
                 {children}
             </InnerContainer>

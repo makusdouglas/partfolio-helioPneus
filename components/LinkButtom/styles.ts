@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { darken } from "polished";
+import { lighten } from "polished";
 
 export type StyledLinkButtomProps = {
   bgColor?: boolean;
@@ -19,8 +19,8 @@ export const StyledLinkButtom = styled.a<StyledLinkButtomProps>`
 
   &:hover {
     background: ${(props) =>
-      props.bgColor ? darken(0.2, props.theme.color.primary) : ""};
+      props.bgColor ? lighten(0.2, props.theme.color.primary) : ""};
     color: ${(props) =>
-      !props.bgColor ? darken(0.2, props.theme.color.text) : ""};
+      !props.bgColor ? lighten(0.4, props.theme.color.text) : "#fff"};
   }
 `;

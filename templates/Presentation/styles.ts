@@ -2,7 +2,8 @@ import styled from "styled-components";
 const Vector = "/assets/pneu-vector.png";
 
 export const Container = styled.div`
-  min-height: 550px;
+  margin-top: 150px;
+  min-height: calc(100vh - 200px);
 
   background: url(${Vector}) no-repeat bottom right;
   background-size: 700px 400px;
@@ -20,10 +21,11 @@ export const Container = styled.div`
   h1 {
     font-family: "Spartan", sans-serif;
     font-weight: 500;
+    color: #fff;
   }
 
   @media (max-width: 900px) {
-    min-height: 600px;
+    /* min-height: 600px; */
   }
 
   @media (max-width: 520px) {

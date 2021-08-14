@@ -1,9 +1,15 @@
-import styled from "styled-components";
+import styled, {
+  DefaultTheme,
+  FlattenInterpolation,
+  ThemeProps,
+} from "styled-components";
 
 export type ContainerBaseProps = {
   bg?: "primary" | "secondary";
   height?: number;
   isPixel?: boolean;
+  styleMasterContainer?: FlattenInterpolation<ThemeProps<DefaultTheme>>;
+  styleInnerContainer?: FlattenInterpolation<ThemeProps<DefaultTheme>>;
 };
 
 export const Container = styled.div<ContainerBaseProps>`
@@ -14,6 +20,7 @@ export const Container = styled.div<ContainerBaseProps>`
         : props.theme.color.bgSecondary
       : props.theme.color.bgPrimary};
   width: 100%;
+  ${(props) => (props.styleMasterContainer ? props.styleMasterContainer : "")}
 `;
 
 export const InnerContainer = styled.div<ContainerBaseProps>`
@@ -30,7 +37,7 @@ export const InnerContainer = styled.div<ContainerBaseProps>`
   max-width: 1280px;
   min-width: 440px;
   margin: 0 auto;
-  height: ${(props) =>
+  min-height: ${(props) =>
     props.height
       ? props.isPixel
         ? `${props.height}px`
@@ -40,4 +47,6 @@ export const InnerContainer = styled.div<ContainerBaseProps>`
   display: flex;
   flex-direction: column;
   position: relative;
+
+  ${(props) => (props.styleInnerContainer ? props.styleInnerContainer : "")}
 `;
