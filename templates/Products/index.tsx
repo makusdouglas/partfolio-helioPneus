@@ -19,7 +19,7 @@ export const Products: React.FC = () => {
   return (
       <Container>
           <div id='main-title'>
-            <Title size='h1'>Produtos</Title>
+            <Title size='h1'>Catálogo</Title>
             <DropdownButton
             title='Filtrar'
             variant='dark'
