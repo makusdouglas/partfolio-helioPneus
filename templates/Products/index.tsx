@@ -35,6 +35,7 @@ export const Products: React.FC = () => {
                     ))}
             </DropdownButton>
           </div>
+          <p>*Obs: Imagens meramente ilustrativas</p>
           {products.map(
               group => selectedGroup === 0 ? 
               (              

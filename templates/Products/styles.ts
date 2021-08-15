@@ -13,6 +13,11 @@ export const Container = styled.div`
     color: ${(props) => props.theme.color.primary};
     margin-right: 20px;
   }
+  p {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 `;
 export const GroupContainer = styled.div``;
 export const GroupTitleContainer = styled.div`
