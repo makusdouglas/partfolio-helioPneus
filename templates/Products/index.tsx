@@ -7,7 +7,6 @@ import {
     CardsContainer 
 } from './styles';
 import {products, Groups} from '../../constants/products';
-import { HeadingH1, HeadingH2 } from '../../components/Title/styles';
 import { CardProduct } from '../../components/CardProduct';
 import {Dropdown, DropdownButton} from 'react-bootstrap'
 
@@ -41,7 +40,7 @@ export const Products: React.FC = () => {
               (              
                 <GroupContainer key={group.group}>
                     <GroupTitleContainer>
-                        <HeadingH2>Pneu Aro {group.group}"</HeadingH2>
+                        <Title size='h2'>Pneu Aro {group.group}"</Title>
                         <hr />
                     </GroupTitleContainer>
                     <CardsContainer>
@@ -65,7 +64,7 @@ export const Products: React.FC = () => {
                 : selectedGroup === group.group && (              
                     <GroupContainer key={group.group}>
                         <GroupTitleContainer>
-                            <HeadingH2>Pneu Aro {group.group}"</HeadingH2>
+                            <Title size='h2'>Pneu Aro {group.group}"</Title>
                             <hr />
                         </GroupTitleContainer>
                         <CardsContainer>
