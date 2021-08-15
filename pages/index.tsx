@@ -6,10 +6,10 @@ import { Products } from '../templates/Products'
 export default function Home() {
   return( 
     <>
-    <ContainerDefault>
+    <ContainerDefault id='inicio'>
       <Presentation/>
     </ContainerDefault>
-    <ContainerDefault bg='secondary'>
+    <ContainerDefault bg='secondary' id='products'>
       <Products/>
     </ContainerDefault>
     </>

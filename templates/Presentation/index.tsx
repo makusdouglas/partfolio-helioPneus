@@ -7,14 +7,14 @@ import { Container } from './styles';
 
 const Presentation: React.FC = () => {
   return (
-      <Container id='inicio'>
+      <Container>
           <section>
             <Title>Precisando de um pneu?</Title>
 
             <p>Temos o pneu remold <strong>FORT TIRES</strong>, o melhor remold do mercado.</p>
 
             <ul>
-              <li>Garantia de 6meses</li>
+              <li>Garantia de 6 meses</li>
               <li>Remoldagem com borracha <strong>VIPAL</strong> líder de mercado na América Latina</li>
               <li>Empresa com 6 anos de mercado e distribuição em todo Brasil</li>
               <li>Produto certificado pelo <strong>INMETRO</strong></li>

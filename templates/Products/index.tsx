@@ -12,6 +12,7 @@ import { CardProduct } from '../../components/CardProduct';
 import {Dropdown, DropdownButton} from 'react-bootstrap'
 
 import PneuImage from '../../public/assets/pneu.png'
+import Title from '../../components/Title';
 
 
 export const Products: React.FC = () => {
@@ -19,7 +20,7 @@ export const Products: React.FC = () => {
   return (
       <Container>
           <div id='main-title'>
-            <HeadingH1 id='products'>Produtos</HeadingH1>
+            <Title size='h1'>Produtos</Title>
             <DropdownButton
             title='Filtrar'
             variant='dark'

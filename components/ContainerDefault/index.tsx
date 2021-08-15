@@ -1,13 +1,15 @@
 import React from 'react';
 import { Container, InnerContainer, ContainerBaseProps } from './styles';
 interface ContainerPops extends ContainerBaseProps {
+    id?: string
 }
 const ContainerDefault: React.FC<ContainerPops> = ({ 
-    children, 
+    children,
+    id, 
     ...rest 
 }) => {
     return (
-        <Container {...rest} >
+        <Container {...rest}  id={id}>
             <InnerContainer {...rest}>
                 {children}
             </InnerContainer>

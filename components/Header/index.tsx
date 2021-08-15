@@ -46,8 +46,8 @@ const Header: React.FC = () => {
                     href='#products'
                 />
                 <LinkButtom
-                    title='Onde encontrar?'
-                    href='#'
+                    title='Redes Sociais'
+                    href='#socialmedia'
                 />
                 <LinkButtom
                     title='Contate-nos'
