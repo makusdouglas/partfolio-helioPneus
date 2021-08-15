@@ -24,7 +24,6 @@ export const products: Products[] = [
         id: 1,
         name: "Pneu 165/70/13",
         value: 255.45,
-        inStock: true,
       },
       {
         id: 2,
@@ -40,31 +39,37 @@ export const products: Products[] = [
         id: 3,
         name: "Pneu 175/65/14",
         value: 258.5,
+        inStock: true,
       },
       {
         id: 4,
         name: "Pneu 175/70/14",
         value: 258.5,
+        inStock: true,
       },
       {
         id: 5,
         name: "Pneu 175/70/14 ATR",
         value: 267.15,
+        inStock: true,
       },
       {
         id: 6,
         name: "Pneu 185/60/14",
         value: 258.5,
+        inStock: true,
       },
       {
         id: 7,
         name: "Pneu 185/65/14",
         value: 258.5,
+        inStock: true,
       },
       {
         id: 8,
         name: "Pneu 185/70/14",
         value: 273.65,
+        inStock: true,
       },
       {
         id: 9,
@@ -80,11 +85,13 @@ export const products: Products[] = [
         id: 10,
         name: "Pneu 185/60/15",
         value: 258.5,
+        inStock: true,
       },
       {
         id: 11,
         name: "Pneu 185/65/15",
         value: 258.5,
+        inStock: true,
       },
       {
         id: 12,
@@ -95,6 +102,7 @@ export const products: Products[] = [
         id: 13,
         name: "Pneu 195/55/15",
         value: 258.5,
+        inStock: true,
       },
       {
         id: 14,
@@ -145,11 +153,13 @@ export const products: Products[] = [
         id: 22,
         name: "Pneu 205/55/16",
         value: 258.5,
+        inStock: true,
       },
       {
         id: 23,
         name: "Pneu 205/60/16",
         value: 275.65,
+        inStock: true,
       },
       {
         id: 24,
@@ -185,6 +195,7 @@ export const products: Products[] = [
         id: 29,
         name: "Pneu 215/45/17",
         value: 336.5,
+        inStock: true,
       },
       {
         id: 30,

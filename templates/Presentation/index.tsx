@@ -11,7 +11,14 @@ const Presentation: React.FC = () => {
           <section>
             <Title>Precisando de um pneu?</Title>
 
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+            <p>Temos o pneu remold <strong>FORT TIRES</strong>, o melhor remold do mercado.</p>
+
+            <ul>
+              <li>Garantia de 6meses</li>
+              <li>Remoldagem com borracha <strong>VIPAL</strong> líder de mercado na América Latina</li>
+              <li>Empresa com 6 anos de mercado e distribuição em todo Brasil</li>
+              <li>Produto certificado pelo <strong>INMETRO</strong></li>
+            </ul>
             <LinkButtom
                         title='Contate-nos'
                         bgColor

@@ -22,7 +22,7 @@ const Header: React.FC = () => {
 
   return (
       <ContainerDefault
-        height={120}
+        height={70}
         isPixel
         styleMasterContainer={StyleMasteContainer}
         styleInnerContainer={StyleInnerContainer}

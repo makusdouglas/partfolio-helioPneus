@@ -37,7 +37,7 @@ export const CardProduct: React.FC<CardProductProps> = ({
                 href={`https://api.whatsapp.com/send?phone=${PhoneNumber}&text=${encodeURI('Ola, tenho interesse no ' + title + ', gostaria de obter mais informações. 😉')}`}
                 passHref
                 >
-                <ButtomFooter disabled={!inStock}> 
+                <ButtomFooter disabled={!inStock} target='_blank'> 
                     <FaPhone/>
                     Solicitar
                 </ButtomFooter>
